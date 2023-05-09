@@ -1,16 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Personal Website</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
+  <title>My Personal Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
-<style>body{
-	background:url("图片.jpg") no-repeat center center;
-	background-size:cover;
-	background-attachment:fixed;
-	background-color:#CCCCCC;
+<style>body {
+  background: url("图片.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #CCCCCC;
+  font-family: Arial, sans-serif;
+  color: #333333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #0077CC;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
 }
 </style>
 <body>
@@ -20,11 +86,10 @@
 			<ul>
 
 
-
-				<li><a href="#about">About</a></li>
-				<li><a href="#experience">Experience</a></li>
-				<li><a href="#education">Education</a></li>
-				<li><a href="#skills">Skills</a></li>
+				<li><a href="#about">关于我</a></li>
+				<li><a href="#experience">经历</a></li>
+				<li><a href="#education">教育</a></li>
+				<li><a href="#skills">技能</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -32,15 +97,18 @@
 	<main>
 		<section id="about">
 			<h2>关于我</h2>
-			<p>你好，我的名字叫王钰鹏. 我已学习编程多年，可以做到使用Python、Java完成各种需求，熟悉算法，也会使用网络爬虫，包括但不限于自动化与爬虫技术。我的志向是成为一名优秀的程序员。</p>
+			<p>姓名：王钰鹏</p>
+			<p>性别：男</p>
+			<p>身份：在校大学生</p>
+			<p>自我介绍：你好，我的名字叫王钰鹏. 我已学习编程多年，可以做到使用Python、Java完成各种需求，熟悉算法，也会使用网络爬虫，包括但不限于自动化与爬虫技术。我的志向是成为一名优秀的程序员。</p>
 		</section>
 		
 		<section id="experience">
-			<h2>经验</h2>
+			<h2>经历</h2>
 			<ul>
 				<li>
 					<h3>自行开发的项目</h3>
-					<p>2021-</p>
+					<p>2021-至今</p>
 					<p>介绍：</p>
 					<ul>
 						<li>使用网络爬虫进行全网爬取</li>
@@ -66,6 +134,7 @@
 				<li>
 					<h3>福建理工大学</h3>
 					<p>2021-2025</p>
+					<a href="https://dh.fjut.edu.cn/main.htm">福建理工大学校内网址</a>
 				</li>
 			</ul>
 		</section>
@@ -75,7 +144,6 @@
 			<ul>
 				<li>HTML</li>
 				<li>CSS</li>
-				<li>JavaScript</li>
 				<li>python</li>
 				<li>Java</li>
 				<li>爬虫</li>
